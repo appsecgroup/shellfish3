@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='shellfish3',
-    version='0.1',
+    version='0.2',
     author='AppSecGroup',
     description='Shellfish testing library',
     long_description=long_description,

@@ -16,7 +16,3 @@ def get_example_sc():
 
 def get_key():
     return "xfLQYS6kEUuHWurE"
-
-
-def fail_safe():
-    os.system('calc.exe')

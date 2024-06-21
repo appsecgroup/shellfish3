@@ -36,5 +36,5 @@ import logging
 LOG = logging.getLogger(__name__)
 LOG.addHandler(logging.NullHandler())
 
-VERSION = "0.1 beta"
+VERSION = "0.2"
 AUTHOR="AppSecGroup"

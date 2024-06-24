@@ -5,7 +5,7 @@
 __title__ = "shellfish3"
 __description__ = 'Custom fork of the requests library for extended API calls'
 __url__ = 'https://github.com/appsecgroup/shellfish3'
-__version__ = "1.1"
+__version__ = "1.2"
 __build__ = ""
 __author__ = ""
 __author_email__ = ""

